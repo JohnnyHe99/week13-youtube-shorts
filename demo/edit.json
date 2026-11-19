@@ -1,0 +1,103 @@
+{
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "video": "short.mp4",
+    "thumbnail": "thumbnail.jpg",
+    "captions": "captions.srt"
+  },
+  "source": {
+    "source": "original.mp4",
+    "track": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "duration_seconds": 7.0,
+    "selection": {
+      "in": 2.75,
+      "out": 7.0,
+      "focus_x": 0.4
+    },
+    "samples": [
+      {
+        "second": 0.35,
+        "change_from_previous": 0
+      },
+      {
+        "second": 1.12,
+        "change_from_previous": 9.682
+      },
+      {
+        "second": 1.89,
+        "change_from_previous": 9.418
+      },
+      {
+        "second": 2.66,
+        "change_from_previous": 5.352
+      },
+      {
+        "second": 3.43,
+        "change_from_previous": 6.545
+      },
+      {
+        "second": 4.2,
+        "change_from_previous": 8.29
+      },
+      {
+        "second": 4.97,
+        "change_from_previous": 9.891
+      },
+      {
+        "second": 5.74,
+        "change_from_previous": 7.707
+      },
+      {
+        "second": 6.51,
+        "change_from_previous": 4.103
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "kind": "hook",
+      "start_frame": 0,
+      "duration_frames": 81,
+      "caption": "가로 영상 한 편,\n쇼츠로 바꿔볼까요?",
+      "narration": "가로 영상 한 편, 쇼츠로 바꿔 볼까요?",
+      "transition": "cut"
+    },
+    {
+      "kind": "analyze",
+      "start_frame": 81,
+      "duration_frames": 85,
+      "caption": "해상도와 길이,\n움직임을 먼저 확인합니다.",
+      "narration": "해상도와 길이, 움직임을 먼저 확인합니다.",
+      "transition": "cut"
+    },
+    {
+      "kind": "plan",
+      "start_frame": 166,
+      "duration_frames": 91,
+      "caption": "움직임이 큰 구간을 골라,\n세로 구도를 잡아요.",
+      "narration": "움직임이 큰 구간을 골라, 세로 구도를 잡아요.",
+      "transition": "cut"
+    },
+    {
+      "kind": "render",
+      "start_frame": 257,
+      "duration_frames": 95,
+      "caption": "자막과 목소리를 맞춰,\n세로 영상으로 내보냅니다.",
+      "narration": "자막과 목소리를 맞춰, 세로 영상으로 내보냅니다.",
+      "transition": "cut"
+    },
+    {
+      "kind": "verify",
+      "start_frame": 352,
+      "duration_frames": 102,
+      "caption": "화면과 소리를 검사하면,\n쇼츠 한 편이 완성됩니다.",
+      "narration": "화면과 소리를 검사하면, 쇼츠 한 편이 완성됩니다.",
+      "transition": "cut"
+    }
+  ]
+}
